@@ -1,0 +1,165 @@
+/*You can change the hexidecimal number to change the colors on your nonlinear story.  
+You can also change the font family, font sizes, font styles, or alignments*/
+
+/*overall style*/
+div {
+    width: 75%;
+	margin: 0 auto;
+}
+
+body {
+	background: #fefefe; /*to change, look up color codes on Adobe Color, Cooler, or Photoshop*/
+	font-family: Geneva, sans-serif; /*to change, look up other font families*/
+}
+/*heading style*/
+h1 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: #000000; 
+	text-align: center; 
+			margin: 100px auto 
+	font-size: 32px; /*you can change all font sizes by changing the pixels*/
+	font-weight: bold;
+	word-wrap: break-word
+}
+
+h4 {
+	font-family: helvetica, sans-serif;
+	color: #000000; 
+	text-align: left; 
+			margin: 100px  
+	font-size: 32px; /*you can change all font sizes by changing the pixels*/
+	font-weight: bold;	
+}
+h3 {
+
+	font-family: helvetica, sans-serif;
+	color: #000000; 
+	text-align: left; 
+			margin-left;: 400px  
+	font-size: 32px; /*you can change all font sizes by changing the pixels*/
+	font-weight: bold;
+}
+
+
+/*image style*/
+img {
+	height: 400px;px; /*change height of image*/
+    display: block;
+    margin: auto;
+    border:0px solid #f41919; 
+}
+
+/*paragraph style*/
+p {	
+	font-size: 16px;
+	text-align: left;
+
+            max-width: 500px;
+
+            margin: 20px auto 20px;
+	color: #000000; /*change this to the hexidecimal number for the paragraph text color you prefer*/
+}
+/*unvisited link style*/
+a {
+	color: #000000;
+    text-align: center;
+}
+/*hovered over link style*/
+a:hover {
+	color: #5DA6A8; 
+}
+/*visited link style*/
+a:visited {
+	color: #B2125D; 
+}
+/*list styles*/
+ul {
+   display: block;
+    margin:auto; 
+    text-align: left;
+	padding-left: 35%;
+  	list-style-position: inside;
+}
+
+li {
+	font-size: 16px;
+	font-style:italic; 
+	color: #FF0078;
+	}
+
+#show-page-code {
+	display: block;
+	margin: 24px auto;
+	padding: 10px 16px;
+	cursor: pointer;
+}
+
+#page-code {
+	max-width: 700px;
+	max-height: 500px;
+	margin: 0 auto 24px;
+	padding: 16px;
+	overflow: auto;
+	border: 1px solid #ccc;
+	background: #f4f4f4;
+	white-space: pre-wrap;
+	overflow-wrap: anywhere;
+}
+
+
+	.space1 {
+		margin-left: 0px;
+}
+
+.extra-space {
+
+	margin-left: 40px;
+}
+.space3 {
+	margin-left: 150px;
+}
+.space4{
+	margin-left: 100px;
+}
+.space5{
+	margin-left: 177px;
+}
+.space6{
+	margin-left: 20px;
+}
+
+.space7{
+	margin-left:150px;
+}
+.space8{
+	margin-left: 180px;
+	margin: 20px;
+	text-align: left;
+}
+
+.space9{
+	margin-left: 100px;
+	text-align: left;
+	margin-top: 20px;
+}
+
+.italic {
+	margin-left: 80px;
+	font-style: italic;
+}
+
+.italic2{
+	margin-left: 120px;
+	font-style: italic;
+	
+}
+
+.italic3{
+	margin-left: 80px;
+	font-style: italic;
+}
+
+.space10{
+	margin-left: 200px;
+	text-align: right;
+}
